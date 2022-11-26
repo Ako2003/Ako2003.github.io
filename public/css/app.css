@@ -1,0 +1,44 @@
+/* Make form in the middle of the screen horizontaly*/  
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#question_card{
+    margin: 10% auto;
+}
+
+#word_card{
+    align-items: baseline;
+    margin: 10% 26px 20px 0;
+}
+
+#text{
+    text-align: center;
+}
+
+/* Add design to navbar */
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#logout:hover{
+    background-color: #333;
+}
